@@ -10,8 +10,7 @@ class Solution(object):
             min_Price = min(min_Price,currentDayPrice)
         return max_profit
 
-        
-
+    
 prices = [7,1,5,3,6,4]
 s = Solution()
 print(s.maxProfit(prices))
